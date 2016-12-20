@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../objectscss.css">
+	<title></title>
+	<script type="text/javascript">
+	function addcat(form){
+		if (form.catname.value=="") 
+		{
+			alert("¬ведите им€ категории!")
+			return;
+		}
+		if (form.filename.value=="")
+		{
+			alert("¬ведите им€ файла!")
+			return;
+		}
+		
+		var list = document.getElementById("list1");
+		var newDiv = document.createElement("li");
+		newDiv.innerHTML = "<a href=" + form.filename.value + 
+						   " target=\"descriptions\">" + form.catname.value + "</a> <input type=\"button\" onclick=\"del(this)\" value=\"”далить\"/>";
+		list.appendChild(newDiv);
+	}		
+
+	function del(toDel){
+		var toDel_parent = toDel.parentNode;
+		toDel_parent.parentNode.removeChild(toDel_parent);
+		return;
+	}
+
+
+	</script>
+</head>
+<body>
+
+<ul id="list1">
+	<img src="asrock/asrock.jpg"><br>
+	¬ведите необходимую модель
+	<li><a href="index.php?C=4&O=4-1"> FM2A58M-DG3+</a></li>
+	<li><a href="index.php?C=4&O=4-2"> B150M-HDV</a></li>
+	<li><a href="index.php?C=4&O=4-3"> AM1B-M</a></li>
+	<li><a href="index.php?C=4&O=4-4"> B85M-DGS</a></li>
+</ul>
+<form name="objadd" method="get">
+	¬ведите название модели
+	<input type="text" name="catname" size="16">
+	<br>
+	¬ведите им€ файла
+	<input type="text" name="filename" size="16">
+	<input type="button" name="catnamebtn" value="OK" onclick="addcat(this.form)">
+	</form>
+
+</body>
+</html>

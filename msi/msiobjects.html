@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="../objectscss.css">
+	<title></title>
+	<script type="text/javascript">
+	function addcat(form){
+		if (form.catname.value=="") 
+		{
+			alert("Введите имя категории!")
+			return;
+		}
+		if (form.filename.value=="")
+		{
+			alert("Введите имя файла!")
+			return;
+		}
+		
+		var list = document.getElementById("list1");
+		var newDiv = document.createElement("li");
+		newDiv.innerHTML = "<a href=" + form.filename.value + 
+						   " target=\"descriptions\">" + form.catname.value + "</a> <input type=\"button\" onclick=\"del(this)\" value=\"Удалить\"/>";
+		list.appendChild(newDiv);
+	}		
+
+	function del(toDel){
+		var toDel_parent = toDel.parentNode;
+		toDel_parent.parentNode.removeChild(toDel_parent);
+		return;
+	}
+
+
+	</script>
+</head>
+<body>
+
+<ul id="list1">
+	<img src="msi/msi.jpg"><BR>
+	Выберите необходимую модель
+	<li><a href="index.php?C=2&O=2-1"> A68HM-E33 V2</a></li>
+	<li><a href="index.php?C=2&O=2-2"> 970A-G43</a></li>
+	<li><a href="index.php?C=2&O=2-3"> Z97 PC</a></li>
+</ul>
+
+<form name="objadd" method="get">
+	Введите название объекта
+	<input type="text" name="catname" size="16">
+	<br>
+	Введите имя файла
+	<input type="text" name="filename" size="16">
+	<input type="button" name="catnamebtn" value="OK" onclick="addcat(this.form)">
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../descriptionscss.css">
+	<script type="text/javascript">
+		function addrow(form){
+			var table = document.getElementById("table");
+			row = table.insertRow(table.rows.length);
+			cell1 = row.insertCell(0);
+			cell2 = row.insertCell(1);
+			cell1.innerHTML = form.rowtext.value;
+			cell2.innerHTML = form.rowtext2.value;
+		}
+		function removerow(){
+			var table = document.getElementById("table");
+			row = table.deleteRow(table.rows.length-1);
+		}
+		function change(){
+			var table = document.getElementById("table");
+			table.style.cssText = "background-color: black; color: white;"
+		}
+	</script>
+</head>
+<body>
+		<img src="asus/lga1150.jpg">	
+
+<table border="1" id="table">
+	<tr>
+		<td>
+		Сокет
+		</td>
+		<td>
+		 LGA1150
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Тип памяти
+		</td>
+		<td>
+			DDR2
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Форм-фактор
+		</td>
+		<td>
+			BTX
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Кол-во USB портов
+		</td>
+		<td>
+			4
+		</td>
+	</tr>
+
+</table>
+
+<form name="forma">
+	<input type="text" name="rowtext">
+	<input type="text" name="rowtext2">
+	<input id="addbtn" type="button" value="Добавить строку" name="addRow" onclick="addrow(this.form)">
+	<input id="removebtn" type="button" value="Удалить строку" name="removeRow" onclick="removerow()">
+	<br>
+	<input type="button" value="Сменить стиль" name="Change" onclick="change()">
+</form>
+</body>
+</html>

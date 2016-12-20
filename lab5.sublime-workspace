@@ -1,0 +1,529 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"re",
+				"read_exif_data"
+			],
+			[
+				"as",
+				"asusobjects"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"A",
+				"ATX"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"DDR",
+				"DDR2"
+			],
+			[
+				"me",
+				"memory"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"man",
+				"manuf"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"a",
+				"alert"
+			],
+			[
+				"По",
+				"Производитель"
+			],
+			[
+				"row",
+				"rowtext2"
+			],
+			[
+				"ce",
+				"cell2"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"f",
+				"form\tTag"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"list",
+				"list1"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"my",
+				"mystyle2"
+			],
+			[
+				"se",
+				"selectStyle"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"cha",
+				"changeStyle"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Pare",
+				"parentNode"
+			],
+			[
+				"lis",
+				"list1"
+			],
+			[
+				"to",
+				"toDel_parent"
+			],
+			[
+				"ca",
+				"catnamebtn"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Z/home/invert/invert.js",
+			"settings":
+			{
+				"buffer_size": 1908,
+				"encoding": "Cyrillic (Windows 1251)",
+				"line_ending": "Windows",
+				"name": "function Determinant(A)   // Определитель матрицы"
+			}
+		},
+		{
+			"file": "/Z/home/invert/index.html",
+			"settings":
+			{
+				"buffer_size": 474,
+				"encoding": "Cyrillic (Windows 1251)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/PCK/PT4Tasks.html",
+			"settings":
+			{
+				"buffer_size": 10515,
+				"encoding": "Cyrillic (Windows 1251)",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Z/home/lab6.kv/www"
+	],
+	"file_history":
+	[
+		"/Z/home/lab6.kv/www/categories.php",
+		"/Z/home/lab6.kv/www/categoriescss.css",
+		"/Z/home/lab6.kv/www/categoriescss2.css",
+		"/Z/home/lab6.kv/www/descriptions.html",
+		"/Z/home/lab6.kv/www/descriptionscss.css",
+		"/Z/home/lab6.kv/www/index.php",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.917/lab7.tpl",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.847/index.php",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.688/style.css",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.695/object1-1.php",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.640/about.php",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.412/applicate.php",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.991/style.css",
+		"/C/Users/Vyacheslav/AppData/Local/Temp/Rar$DIa0.570/categories.php",
+		"/Z/home/lab6.kv/www/index.html",
+		"/Z/home/lab5.kv/www/objects.html",
+		"/Z/home/lab5.kv/www/objectscss.css",
+		"/Z/home/lab5.kv/www/msi/lga1151description.html",
+		"/Z/home/lab5.kv/www/msi/msiobjects.html",
+		"/Z/home/lab5.kv/www/alert.js",
+		"/Z/home/lab5.kv/www/categories.html",
+		"/Z/home/lab5.kv/www/categories.php",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/asrock/asrockobjects.html",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/gigabyte/gigabyteobjects.html",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/msi/msiobjects.html",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/asus/asusobjects.html",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/descriptionscss.css",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/categoriescss2.css",
+		"/Volumes/RUSTY SCREW/Internet/Lab4/lab4.sublime-project",
+		"/Volumes/RUSTY SCREW/Internet/Lab3/categories.html",
+		"/Volumes/RUSTY SCREW/Internet/Lab3/asus/am1description.html",
+		"/G/Интернет/Lab3/categories.html",
+		"/G/Интернет/Lab3/categoriescss.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"..",
+			"\">\n",
+			"write",
+			"window"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Z/home/invert/invert.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1905,
+								1905
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function Determinant(A)   // Определитель матрицы",
+							"syntax": "Packages/JavaScript Ultimate/JavaScript (DOM).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Z/home/invert/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/PCK/PT4Tasks.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lab5.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

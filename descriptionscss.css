@@ -1,0 +1,32 @@
+.desmystyle 
+{
+		color: #003322;
+		font-size: 150%; 
+		background-color: #bfc;
+		font-weight: bold;
+		font-size: large;
+		font:tahoma;
+		width: 100%;
+		height: 50%;
+}
+.desmystyle2
+{
+		color: #003322;
+		font-size: 150%; 
+		background-color: #ff9966;
+		font-weight: bold;
+		font-size: large;
+		width: 100%;
+		height: 50%;
+}
+.desmystyle3
+{
+		background-color: #82afff;
+		font-size: 150%;
+		color: #443322;
+		font-size: large;
+		font-weight: bold;
+		font-style: arial;
+		width: 100%;
+		height: 50%;
+}
