@@ -33,12 +33,12 @@ function checkForm(form)
 			break;
 		}
 		if(!one){
-			alert("Выберите производителя!");
+			alert("Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гї!");
 			return;
 		}
 
 		if (form.USB.value==""){
-			 alert("Введите количество USB портов")
+			 alert("Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® USB ГЇГ®Г°ГІГ®Гў")
 			 return;
 		}else {
 				three=true;
@@ -55,19 +55,19 @@ function checkForm(form)
 function addcat(form){
 		if (form.catname.value=="") 
 		{
-			alert("Введите название категории!")
+			alert("Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ ГЄГ ГІГҐГЈГ®Г°ГЁГЁ!")
 			return;
 		}
 		if (form.filename.value=="")
 		{
-			alert("Введите имя файла!")
+			alert("Г‚ГўГҐГ¤ГЁГІГҐ ГЁГ¬Гї ГґГ Г©Г«Г !")
 			return;
 		}
 
 		var list = document.getElementById("list1");
 		var newDiv = document.createElement("li");
 		newDiv.innerHTML = "<a href=" + form.filename.value + 
-						   " target=\"objects\">" + form.catname.value + "</a> <input type=\"button\" onclick=\"del(this)\" value=\"Удалить\"/>";
+						   " target=\"objects\">" + form.catname.value + "</a> <input type=\"button\" onclick=\"del(this)\" value=\"Г“Г¤Г Г«ГЁГІГј\"/>";
 		list.appendChild(newDiv);
 	}		
 
@@ -151,7 +151,7 @@ function addcat(form){
 			</div>
 	</div>
 	<div class="catmystyle" id="categories">
-		Производитель
+		ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гј
 	<OL START="1" id="list1">
 		<li><a href="index.php?C=1"> ASUS</a></li>
 		<li><a href="index.php?C=2"> MSI</a></li>
@@ -160,17 +160,17 @@ function addcat(form){
 	</OL>
 
 	<form name="catadd" method="get">
-	Введите название производителя
+	Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гї
 	<input type="text" name="catname" size="16">
 	<br>
-	Введите имя файла
+	Г‚ГўГҐГ¤ГЁГІГҐ ГЁГ¬Гї ГґГ Г©Г«Г 
 	<input type="text" name="filename" size="16">
 	<input type="button" name="catnamebtn" value="OK" onclick="addcat(this.form)">
 	</form>
 <br>
 
 <form name="choice" method="POST">
-Выберите производителя<br>
+Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гї<br>
 	<select size="4" name="manufacturer[]" id="manuf" multiple>
 		<option value="ASUS">
 			ASUS
@@ -186,7 +186,7 @@ function addcat(form){
 		</option>
 	</select><br>
 
-	Выберите тип памяти<br>
+	Г‚Г»ГЎГҐГ°ГЁГІГҐ ГІГЁГЇ ГЇГ Г¬ГїГІГЁ<br>
 	<select name="memory[]">
 		<option value="DDR2">
 			DDR2
@@ -196,13 +196,13 @@ function addcat(form){
 		</option>
 	</select><br>
 
-	Выберите форм фактор<br>
+	Г‚Г»ГЎГҐГ°ГЁГІГҐ ГґГ®Г°Г¬ ГґГ ГЄГІГ®Г°<br>
 	<input type="radio" name="boardform" value="ATX"> ATX<br>
 	<input type="radio" name="boardform" value="ATX+" checked> ATX+<br>
 	<input type="radio" name="boardform" value="BTX"> BTX<br>
 	<input type="radio" name="boardform" value="mini-ATX"> mini-ATX<br>
 	
-	Введите количество USB портов<br>
+	Г‚ГўГҐГ¤ГЁГІГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® USB ГЇГ®Г°ГІГ®Гў<br>
 	<input type="text" name="USB" size="8" maxlength="2">
 <br>
 	<input type="hidden" name="total" value="false">
@@ -214,7 +214,7 @@ function addcat(form){
 echo($_POST['total']);
 $tot = $_POST["total"];
 if(tot==true){
-	echo ("Производитель:");
+	echo ("ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гј:");
 	foreach ($_POST['manufacturer'] as $key=>$value){
 	switch($value){
 	case 'ASUS':
@@ -228,7 +228,7 @@ if(tot==true){
 		}
 	}
 
-	echo "<br/>Тип памяти: ";
+	echo "<br/>Г’ГЁГЇ ГЇГ Г¬ГїГІГЁ: ";
 	foreach ($_POST['memory'] as $key => $value) {
 		switch ($value) {
 			case 'DDR2':
@@ -240,7 +240,7 @@ if(tot==true){
 		}
 	}
 
-	echo "<br/>Форм-фактор: ";
+	echo "<br/>Г”Г®Г°Г¬-ГґГ ГЄГІГ®Г°: ";
 	foreach ($_POST as $key => $value) {
 		switch ($value) {
 			case 'ATX':
@@ -258,7 +258,7 @@ if(tot==true){
 		}
 	}
 
-	echo "<br/>Количество USB портов: ";
+	echo "<br/>ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® USB ГЇГ®Г°ГІГ®Гў: ";
 	echo ($_POST['USB']);
 
 }
@@ -268,7 +268,7 @@ if(tot==true){
 <br>
 
 
-<a href="index.php?C=99&O=99">    Перейти на главную</a> <br>
+<a href="index.php?C=99&O=99">    ГЏГҐГ°ГҐГ©ГІГЁ Г­Г  ГЈГ«Г ГўГ­ГіГѕ</a> <br>
 <!--  -->
 <form name="styleForm" method="get">
 <select name="selectStyle">
@@ -276,7 +276,7 @@ if(tot==true){
 	<option value="1">2</option>
 	<option value="2">3</option>
 </select>
-<input type="button" name="stylecat" value="Сменить стиль" onclick="changeStyle(this.form)">
+<input type="button" name="stylecat" value="Г‘Г¬ГҐГ­ГЁГІГј Г±ГІГЁГ«Гј" onclick="changeStyle(this.form)">
 </form>
 
 	</div>
