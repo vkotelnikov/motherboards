@@ -1,8 +1,9 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="categoriescss.css">
-<link rel="stylesheet" type="text/css" href="objectscss.css">
-<link rel="stylesheet" type="text/css" href="descriptionscss.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="categoriescss.css">
+	<link rel="stylesheet" type="text/css" href="objectscss.css">
+	<link rel="stylesheet" type="text/css" href="descriptionscss.css">
 
 <style type="text/css">
 	.inline{
